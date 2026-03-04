@@ -2,34 +2,32 @@
 
 Repositório dedicado ao estudo tático, análise de performance e estatísticas detalhadas de jogadores e equipes profissionais de **Counter-Strike 2**.
 
+## 🚀 Guia Rápido de Início
+Se você está começando uma nova análise agora, siga estes passos:
+
+1.  **Extração de Dados:** Siga o nosso [Guia de Extração com Go](./analise/Guia%20de%20Extração%20de%20Dados:%20CS2%20Demos%20com%20Go) para transformar suas demos em CSV.
+2.  **Padronização:** Utilize o [Modelo de Análise](./analise/modelo%20de%20analise) para documentar seus insights.
+
 ## 🗂️ Estrutura do Repositório
 
 O projeto está organizado para facilitar a busca por organizações e pro-players específicos:
 
-* **`/Nome-da-Equipe`**: Pastas principais divididas por organizações (ex: FURIA, NaVi, Vitality).
-* **`/Nome-do-Jogador`**: Subpastas contendo análises individuais, heatmaps e demos revisadas.
-* **`Templates`**: Modelos padronizados para novas análises.
+* **`/analise`**: Contém ferramentas, scripts (Go/R) e modelos de documentação.
+* **`/Equipes`**: (Em breve) Pastas divididas por organizações (ex: FURIA, NaVi).
+* **`/Jogadores`**: (Em breve) Subpastas contendo análises individuais e heatmaps.
 
 ## 🏷️ Metatags & Filtros
 
-Cada análise possui um cabeçalho (Frontmatter) para padronização de dados, permitindo filtrar por:
+Cada análise possui um cabeçalho (Frontmatter) para padronização:
 * **Mapa:** Mirage, Inferno, Nuke, etc.
-* **Lado:** TR (Terrorista) ou CT (Contra-Terrorista).
+* **Lado:** TR ou CT.
 * **Função:** AWP, Entry Fragger, Lurker, IGL.
-* **Data:** Período da análise para acompanhar a evolução do meta.
 
 ## 🛠️ Ferramentas Utilizadas
 
-* **Análise de Demos:** [Ex: CSStats, Leetify, HLTV]
-* **Visualização de Dados:** [Ex: Python/Pandas, Excel, Tableau]
-* **Documentação:** Markdown & Git.
-
-## 📈 Metodologia
-
-Minhas análises focam em três pilares principais:
-1.  **Tomada de Decisão:** Avaliação de utilitários e posicionamento em situações de clutch.
-2.  **Estatísticas Avançadas:** Além do K/D, foco em ADR, KAST e Impact Rating.
-3.  **Leitura de Round:** Estudo de setups econômicos e reações a táticas adversárias.
+* **Parser:** [demoinfocs-golang](https://github.com/markus-wa/demoinfocs-golang)
+* **Linguagens:** Go (Extração) e R (Análise Estatística).
+* **Documentação:** Markdown & RMarkdown.
 
 ---
-*Mantido por Aldrei Peralta. Sinta-se à vontade para abrir uma Issue para discussões táticas!*
+*Mantido por [aldreiperalta](https://github.com/aldreiperalta). Sinta-se à vontade para contribuir!*

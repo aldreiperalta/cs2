@@ -1,0 +1,49 @@
+---
+title: "Guia de Extração de Dados: CS2 Demos com Go"
+author: "Análise de CS2"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+---
+
+# 🎯 Objetivo
+Este documento descreve o passo a passo para rodar o script `kill.go` no Windows, garantindo a geração de um arquivo CSV consolidado com todos os eventos das demos de Counter-Strike.
+
+---
+
+## 1️⃣ Pré-requisitos
+Antes de começar, certifique-se de ter:
+
+* **Go instalado:** Versão 1.20 ou superior.
+* **Verificação:** Abra o terminal e digite:
+    ```bash
+    go version
+    ```
+* **Arquivos:** O script `kill.go` deve estar na mesma pasta que os arquivos de demo (`.dem`).
+
+---
+
+## 2️⃣ Inicializar o Módulo Go
+Para gerenciar as dependências (como o parser de demos), execute os seguintes comandos no seu terminal (CMD ou PowerShell):
+
+```bash
+# Navegar até a pasta das demos
+cd "C:\Users\aldre\Downloads\esl-pro-league-season-22-stage-1-furia-vs-legacy-bo3"
+
+# Inicializar o projeto e baixar dependências
+go mod init kill
+go get [github.com/markus-wa/demoinfocs-golang/v4](https://github.com/markus-wa/demoinfocs-golang/v4)
+go mod tidy
+
+---
+
+### Como usar este arquivo:
+1. Abra o **RStudio**.
+2. Vá em `File > New File > R Markdown`.
+3. Apague tudo o que estiver lá e cole o conteúdo acima.
+4. Salve e clique no botão **Knit** (ícone do novelo de lã) para gerar um relatório em HTML bonitão com essas instruções.
+
+**Gostaria que eu já incluísse um bloco de código em R no final deste arquivo para ler esse CSV e gerar um gráfico automático de abates por jogador?** Seria o primeiro passo da sua análise real!

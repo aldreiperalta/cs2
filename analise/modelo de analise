@@ -1,0 +1,49 @@
+---
+equipe: "NOME_DA_EQUIPE"
+jogador: "NOME_DO_JOGADOR"
+funcao: "AWP | Entry | Lurker | IGL | Support"
+mapa: "NOME_DO_MAPA"
+data_da_analise: 2026-03-04
+tags: [Clutch, Entry, Utility, ECO]
+---
+
+# 📊 Análise de Performance: [NOME DO JOGADOR]
+
+## 📋 Resumo Executivo
+> Breve descrição do impacto do jogador na partida ou no campeonato analisado.
+
+---
+
+## 📈 Estatísticas Principais (HLTV/Leetify)
+| Métrica | Valor | Percentil/Média |
+| :--- | :--- | :--- |
+| **Rating 2.0** | 0.00 | - |
+| **ADR** | 00.0 | - |
+| **KAST** | 00% | - |
+| **Impact** | 0.00 | - |
+
+---
+
+## 🗺️ Posicionamento e Mapa de Calor
+*(Dica: Insira aqui um print do mapa de calor do jogador ou descreva as posições fixas)*
+- **Lado CT:** Joga preferencialmente na posição [X].
+- **Lado TR:** Responsável por [fazer o lurk / garantir o espaço / dominar o meio].
+
+## 🧠 Pontos Fortes e Oportunidades
+### ✅ Pontos Fortes
+* **Utilidade:** Uso eficiente de granadas (média de X dmg/round).
+* **Clutch Factor:** Calma em situações de desvantagem numérica.
+
+### ⚠️ Oportunidades (A melhorar)
+* **Over-extending:** Às vezes se expõe sem cobertura.
+* **Economia:** Decisões de compra arriscadas em rounds de bônus.
+
+---
+
+## 🎥 Vídeos e Clips (Opcional)
+- [Link do Clip 01](URL_AQUI) - Descrição da jogada genial.
+- [Link do Clip 02](URL_AQUI) - Erro de posicionamento analisado.
+
+---
+**Notas Adicionais:**
+*Análise feita com base na demo da partida [Equipe A] vs [Equipe B] - [Torneio].*

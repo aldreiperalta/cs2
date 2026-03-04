@@ -32,4 +32,4 @@ Minhas análises focam em três pilares principais:
 3.  **Leitura de Round:** Estudo de setups econômicos e reações a táticas adversárias.
 
 ---
-*Mantido por [Seu Nome/GitHub User]. Sinta-se à vontade para abrir uma Issue para discussões táticas!*
+*Mantido por Aldrei Peralta. Sinta-se à vontade para abrir uma Issue para discussões táticas!*
